@@ -1,0 +1,17 @@
+/* NAV CSS*/
+.navbar {
+  background: #F2F2F2;
+}
+.navbar .nav-link {
+  font-size: 0.95rem;
+  color: #595959;
+  font-weight: 600;
+}
+.navbar .nav-link:hover {
+  background: #757373;
+  color: white;
+}
+.navbar .navbar-toggler {
+  padding: 0.25rem;
+  color: transparent;
+}

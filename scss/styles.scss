@@ -1,0 +1,67 @@
+/* Global CSS*/
+* {
+    font-family: 'Open sans', sans-serif;
+}
+body {
+    background: rgb(209, 209, 209);
+}
+
+/* Content Width SCSS*/
+.content-width {
+    width: 1200px !important;
+}
+
+/* Home Content SCSS */
+
+.custom-home-content {
+    h1 {
+        font-family: 'Open sans', sans-serif;
+        font-weight: 700 !important;
+        color: #595959;
+    }
+    h2 {
+        font-family: 'Open sans', sans-serif;
+        font-weight: 700 !important;
+        color: #595959;
+    }
+    p {
+        color: #5F5F5F;
+    }
+    span {
+        color: #70bdf8;
+        font-weight: 700 !important;
+    }
+    .btn {
+        background: #595959;
+        color: white;
+        border-radius: 0.125rem;
+        font-size: 0.8rem;
+        &:hover { 
+            background: #757373;
+            color: white;
+        }
+    }
+    .clr-1 {
+        color: #1E68BD;
+    }
+    .clr-2 {
+        color: #EF3433;
+    }
+    .clr-3 {
+        color: #F3C67D;
+    }
+    .clr-4 {
+        color: #49B99F;
+    }
+    .clr-5 {
+        color: #3F4691;
+    }
+    .clr-6 {
+        color: #F94B72;
+    }
+}
+
+.custom-tagline {
+    background-color: #252525;
+    font-size: 0.875rem;
+}
